@@ -1,0 +1,9 @@
+#hoverDiv {
+    width: 300px;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+    background-color: lightcoral;
+    height: 30px;
+    border-radius: 20px;
+}
