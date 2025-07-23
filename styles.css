@@ -22,8 +22,20 @@
     color:blue;
     border: 5px inset;
     padding: 5px;
-    margin-top: 20px;
+    margin: 20px 300px 20px 300px;
     background-color: rgb(99, 185, 152);
     align-items: center;
     text-align: center;
+    display: flex;
+}
+
+#secondForm{
+    color:rgb(5, 5, 5);
+    border: 5px outset;
+    padding: 5px;
+    margin: 20px 300px 20px 300px;
+    background-color: rgb(53, 35, 134);
+    align-items: center;
+    text-align: center;
+    display: flex;
 }

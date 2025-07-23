@@ -24,6 +24,12 @@
         <input type="text" id="who" name="who" required> <br>
         <button id="submit">Submit</button>
     </form>
+
+    <h5>Focus and Blur events</h5>
+    <form id="secondForm">
+        <label for="age">What is your age (You must be over 18 to access this hideous webpage)</label>
+        <input type="text" id="age" onblur="wrongAge()">
+    </form>
 </body>
 
 </html>
