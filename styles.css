@@ -17,3 +17,13 @@
     padding: 10px;
     text-align: center;
 }
+
+#simpleForm{
+    color:blue;
+    border: 5px inset;
+    padding: 5px;
+    margin-top: 20px;
+    background-color: rgb(99, 185, 152);
+    align-items: center;
+    text-align: center;
+}

@@ -1,6 +1,6 @@
 const hoverDiv = document.getElementById("hoverDiv");
 
-function changeHover(event){
+function changeHover(event) {
     event.target.style.backgroundColor = "tomato";
     event.target.textContent = "Now I am different :) ";
 }
@@ -21,3 +21,13 @@ document.addEventListener("keydown", event => {
 document.addEventListener("keyup", event => {
     inputKey.textContent = `You released the key = ${event.key}`;
 })
+
+
+let who;
+
+document.getElementById("submit").onclick = function(event) {
+    event.preventDefault();
+    who = document.getElementById("who").value;
+    document.getElementById("h1Who").textContent = `Welcome ${who}, this is my lab7 Events project`
+    alert(`${who} is here!`);
+}
