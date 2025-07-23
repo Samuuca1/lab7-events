@@ -52,3 +52,13 @@ function wrongAge() {
     }
 }
 
+const list = document.getElementById("list");
+
+list.addEventListener("click", function(event){
+    const target = event.target;
+
+    if (target.matches("li")) {
+        alert('I am also excited for ' + event.target.textContent);
+        target.style.backgroundColor = "green";
+    }
+})

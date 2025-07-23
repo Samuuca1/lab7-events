@@ -1,11 +1,14 @@
 #hoverDiv {
     width: 300px;
     font-weight: bold;
-    align-items: center;
     text-align: center;
+    align-items: center;
     background-color: lightcoral;
     height: 30px;
     border-radius: 20px;
+    margin: auto;
+    display: center;
+    padding: auto;
 }
 
 #inputKey{
@@ -16,6 +19,8 @@
     color:aliceblue;
     padding: 10px;
     text-align: center;
+    margin: auto;
+    
 }
 
 #simpleForm{
@@ -29,6 +34,11 @@
     display: flex;
 }
 
+h6,h5,h4,h3,h2,h1{
+    font-size: 30px;
+    text-align: center;
+}
+
 #secondForm{
     color:rgb(5, 5, 5);
     border: 5px outset;
@@ -38,4 +48,19 @@
     align-items: center;
     text-align: center;
     display: flex;
+}
+
+p{
+    text-align: center;
+}
+ul{
+    text-align: center;
+    list-style-type: customType;
+    list-style-position: inside;
+    font-weight: 1100px;
+    margin: auto;
+}
+@counter-style customType {
+    system: cyclic;
+    symbols: "🎮"
 }
